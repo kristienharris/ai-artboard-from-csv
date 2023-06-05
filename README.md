@@ -4,7 +4,7 @@ by Kristien Harris
 ## Purpose
 Create named artboards from a csv file in Adobe Illustrator. See the csv for example file data. Only tested in Illustrator CC.
 
-## Steps
+## Notes
 - save spreadsheet as csv (remove empty rows in text editor)
 - file needs column headers (name, width and height)
 - dimensions in csv must be in mm
