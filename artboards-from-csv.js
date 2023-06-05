@@ -28,7 +28,7 @@ https://community.adobe.com/t5/illustrator-discussions/script-change-artboard-si
 
 function run() {
   var doc = app.activeDocument;
-  var units = 1; // 0 : point / 1 : pica / 2 : inch / 3 : mm / 4 : cm / 5 : custom / 6 : px
+  var units = 3; // 0 : point / 1 : pica / 2 : inch / 3 : mm / 4 : cm / 5 : custom / 6 : px
   app.preferences.setIntegerPreference("rulerType", units);
 
   // Open csv file
